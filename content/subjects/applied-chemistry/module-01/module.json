@@ -1,0 +1,55 @@
+{
+  "id": "applied-chemistry/module-01",
+  "title": "Inside the atom",
+  "description": "Get to know the tiny pieces that make every element itself.",
+  "accent": "clay",
+  "sourceFiles": ["Sample course notes — original demonstration content"],
+  "topics": [
+    {
+      "id": "atomic-parts",
+      "title": "The three particles",
+      "minutes": 4,
+      "source": { "file": "Sample course notes — original demonstration content" },
+      "sections": [
+        { "id": "core", "title": "A tiny address book", "kind": "paragraph", "body": "An atom has a small, dense nucleus at its centre and electrons arranged around it. Nearly all of its mass sits in the nucleus; most of the atom is the space around it." },
+        { "id": "particle-table", "title": "Three particles, three jobs", "kind": "bullets", "items": ["Proton: charge +1, relative mass 1; found in the nucleus.", "Neutron: charge 0, relative mass 1; found in the nucleus.", "Electron: charge −1, relative mass about 1/1836; found outside the nucleus."] },
+        { "id": "definition", "title": "Atomic number", "kind": "definition", "body": "The atomic number (proton number) is the number of protons in an atom's nucleus." },
+        { "id": "example", "title": "Identify the element", "kind": "example", "visual": "atom", "body": "A carbon atom has 6 protons, so its atomic number is 6. If it is neutral, it also has 6 electrons. Changing its neutron count would make a different isotope, not a different element." },
+        { "id": "trap", "title": "Easy mix-up", "kind": "trap", "body": "Electrons are not inside the nucleus. They occupy regions around it and contribute very little to the atom's total mass." },
+        { "id": "recap", "title": "30-second recap", "kind": "recap", "body": "Protons and neutrons form the nucleus. Electrons are outside it. Proton number identifies the element." }
+      ]
+    },
+    {
+      "id": "isotopes",
+      "title": "Isotopes & ions",
+      "minutes": 5,
+      "sections": [
+        { "id": "isotope-core", "title": "Same element, different neutron count", "kind": "paragraph", "body": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. Their proton number stays fixed; their mass numbers differ." },
+        { "id": "notation", "title": "Read the notation", "kind": "formula", "body": "Mass number = protons + neutrons\nNeutrons = mass number − proton number" },
+        { "id": "example", "title": "Carbon dating", "kind": "example", "body": "Carbon-14 used in dating has 6 protons and 14 − 6 = 8 neutrons. It is still carbon because the proton count stays 6; its extra neutrons make it a different isotope." },
+        { "id": "ion", "title": "When an atom becomes an ion", "kind": "definition", "body": "An ion is a particle with an overall charge because it has gained or lost electrons. The nucleus does not change during ordinary ion formation." },
+        { "id": "recap", "title": "30-second recap", "kind": "recap", "body": "Isotopes differ in neutrons. Ions differ in electrons. Use mass number minus proton number to find neutrons." }
+      ]
+    },
+    {
+      "id": "electron-arrangement",
+      "title": "Electron arrangement",
+      "minutes": 4,
+      "sections": [
+        { "id": "shells", "title": "Electrons occupy shells", "kind": "paragraph", "body": "For the first 20 elements, electrons fill shells from the inside out. The simplified shell capacities used here are 2 in the first shell, 8 in the second and 8 in the third." },
+        { "id": "build", "title": "Build an arrangement", "kind": "bullets", "items": ["A neutral atom has the same number of electrons as protons.", "Fill the first shell before starting the second.", "For elements 1–20, continue 2, 8, 8 before moving outward."] },
+        { "id": "example", "title": "Build sodium's shells", "kind": "example", "body": "A neutral sodium atom has 11 electrons. Fill 2 in the first shell, then 8 in the second; the one left goes in the third: 2, 8, 1." },
+        { "id": "trap", "title": "Easy mix-up", "kind": "trap", "body": "For a positive ion, subtract electrons; for a negative ion, add electrons. The proton count remains the same." },
+        { "id": "recap", "title": "30-second recap", "kind": "recap", "body": "Neutral atoms have equal protons and electrons. Fill shells from the inside out: 2, then 8, then 8 for the first 20 elements." }
+      ]
+    }
+  ],
+  "questions": [
+    { "id": "atom-1", "prompt": "Which particle determines the atomic number of an element?", "options": ["Neutrons", "Protons", "Electrons", "Protons and neutrons"], "answer": 1, "explanation": "Atomic number is defined as the number of protons in the nucleus.", "topicId": "atomic-parts" },
+    { "id": "atom-2", "prompt": "A carbon atom has mass number 14 and proton number 6. How many neutrons does it have?", "options": ["6", "8", "14", "20"], "answer": 1, "explanation": "Neutrons = mass number − proton number, so 14 − 6 = 8.", "topicId": "isotopes" },
+    { "id": "atom-3", "prompt": "Two atoms are isotopes of the same element. Which statement must be true?", "options": ["They have equal neutron numbers", "They have equal mass numbers", "They have equal proton numbers", "They have equal charges"], "answer": 2, "explanation": "Isotopes have the same proton number and different neutron numbers.", "topicId": "isotopes" },
+    { "id": "atom-4", "prompt": "A neutral sodium atom has 11 protons. What is its electron arrangement in this simplified model?", "options": ["2, 9", "2, 8, 1", "8, 2, 1", "2, 6, 3"], "answer": 1, "explanation": "A neutral atom has 11 electrons. Filling shells from the inside gives 2, 8, 1.", "topicId": "electron-arrangement" },
+    { "id": "atom-5", "prompt": "An atom loses one electron. What changes?", "options": ["It becomes a positive ion", "Its proton number decreases", "It becomes an isotope", "Its nucleus gains a proton"], "answer": 0, "explanation": "Losing a negatively charged electron leaves the particle with a net positive charge.", "topicId": "isotopes" },
+    { "id": "atom-6", "prompt": "Why does almost all of an atom's mass sit in its nucleus?", "options": ["Electrons are tightly packed there", "Protons and neutrons are in the nucleus and are much heavier than electrons", "The nucleus takes up most of the atom's volume", "Electrons have no charge"], "answer": 1, "explanation": "Protons and neutrons each have relative mass about 1, while an electron is about 1/1836.", "topicId": "atomic-parts" }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "applied-chemistry/module-04",
+  "title": "Spectroscopic and diffraction techniques",
+  "description": "Use light and X-rays to identify matter, interpret spectra and estimate crystallite size.",
+  "accent": "clay",
+  "sourceFiles": [
+    "documents/books/applied-chemistry/module-04/source/module-4.pdf"
+  ],
+  "topics": [
+    {
+      "id": "spectroscopy-emr",
+      "title": "Spectroscopy and electromagnetic radiation",
+      "minutes": 7,
+      "source": { "file": "documents/books/applied-chemistry/module-04/source/module-4.pdf", "page": 3 },
+      "sections": [
+        {
+          "id": "spectroscopy-core",
+          "title": "Matter leaves a measurable response",
+          "kind": "paragraph",
+          "body": "Spectroscopy studies how electromagnetic radiation interacts with matter. The measured response—such as absorption or emission—varies with wavelength or frequency and can provide qualitative information (what is present) or quantitative information (how much is present)."
+        },
+        {
+          "id": "emr-relations",
+          "title": "Three linked quantities",
+          "kind": "formula",
+          "body": "For electromagnetic radiation: c = λν and E = hν = hc/λ. c is the speed of light, λ wavelength, ν frequency, h Planck's constant and E photon energy. Shorter wavelength means higher frequency and higher photon energy."
+        },
+        {
+          "id": "emr-interactions",
+          "title": "Ways radiation interacts with matter",
+          "kind": "bullets",
+          "items": [
+            "Absorption: matter takes up radiation energy and moves to a higher energy state.",
+            "Emission: matter releases electromagnetic radiation.",
+            "Transmission: radiation passes through a sample.",
+            "Reflection and scattering redirect radiation; refraction bends it as it enters another medium."
+          ],
+          "source": { "file": "documents/books/applied-chemistry/module-04/source/module-4.pdf", "page": 6 }
+        },
+        {
+          "id": "emr-example",
+          "title": "Worked example · compare photon energies",
+          "kind": "example",
+          "body": "A UV photon has a shorter wavelength than a visible-light photon. Since E = hc/λ, its photon energy is greater. When interpreting a spectrum, first identify which quantity is on the horizontal axis; a peak at a particular wavelength marks a radiation energy that interacts with the sample."
+        },
+        {
+          "id": "emr-trap",
+          "title": "Don't reverse wavelength and energy",
+          "kind": "trap",
+          "body": "Frequency and photon energy increase together; wavelength moves in the opposite direction. A longer wavelength does not mean a higher-energy photon."
+        },
+        {
+          "id": "emr-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Spectroscopy records radiation–matter response. c = λν; E = hν, so shorter wavelength means higher photon energy."
+        }
+      ]
+    },
+    {
+      "id": "uv-visible-spectroscopy",
+      "title": "UV–Visible spectroscopy",
+      "minutes": 8,
+      "source": { "file": "documents/books/applied-chemistry/module-04/source/module-4.pdf", "page": 13 },
+      "sections": [
+        {
+          "id": "uv-vis-core",
+          "title": "Measure light absorbed by a sample",
+          "kind": "paragraph",
+          "body": "UV–Visible spectroscopy measures how a sample absorbs ultraviolet and visible wavelengths. Absorption promotes electrons between allowed energy states; the wavelength pattern helps characterize absorbing species. A spectrophotometer compares light intensity before and after the sample."
+        },
+        {
+          "id": "uv-vis-instrument",
+          "title": "Follow the instrument path",
+          "kind": "bullets",
+          "items": [
+            "A source supplies UV or visible radiation.",
+            "A wavelength selector/monochromator chooses a wavelength band.",
+            "The beam passes through a blank and sample in a cuvette.",
+            "A detector measures transmitted intensity; the instrument reports absorbance or transmittance.",
+            "A spectrum plots the response against wavelength."
+          ]
+        },
+        {
+          "id": "uv-vis-formula",
+          "title": "Absorbance and concentration",
+          "kind": "formula",
+          "body": "Transmittance: T = I/I₀. Absorbance: A = log₁₀(I₀/I) = −log₁₀(T). For a suitable dilute solution, Beer–Lambert law: A = εlc, where ε is molar absorptivity, l path length and c concentration."
+        },
+        {
+          "id": "uv-vis-example",
+          "title": "Worked example · infer relative concentration",
+          "kind": "example",
+          "body": "Two samples contain the same absorbing species and are measured at the same wavelength in identical cuvettes. If sample B has absorbance 0.60 and sample A has absorbance 0.30, then—assuming the Beer–Lambert range is valid—B has twice A's concentration because A is proportional to c while ε and l are unchanged. This is a teaching calculation, not a value copied from the lecture."
+        },
+        {
+          "id": "uv-vis-applications",
+          "title": "What it can tell you",
+          "kind": "paragraph",
+          "body": "A UV–Visible spectrum can help identify an absorbing species from its spectral features and estimate concentration using a calibration or Beer–Lambert relationship. The lecture also connects observed colour with selective absorption: a solution appears in the colours it transmits or reflects more strongly, not the colours it absorbs most."
+        },
+        {
+          "id": "uv-vis-trap",
+          "title": "Blank, wavelength and range matter",
+          "kind": "trap",
+          "body": "Do not compare absorbances measured at different wavelengths or path lengths as if concentration were the only changing variable. Beer–Lambert proportionality is useful only under suitable conditions; use a blank to account for solvent and cuvette contributions."
+        },
+        {
+          "id": "uv-vis-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Select wavelength → pass light through sample → detect transmitted intensity → interpret absorbance. A = log₁₀(I₀/I); under suitable conditions A = εlc."
+        }
+      ]
+    },
+    {
+      "id": "powder-xrd",
+      "title": "Powder X-ray diffraction",
+      "minutes": 9,
+      "source": { "file": "documents/books/applied-chemistry/module-04/source/module-4.pdf", "page": 32 },
+      "sections": [
+        {
+          "id": "xrd-core",
+          "title": "A diffraction pattern fingerprints crystal order",
+          "kind": "paragraph",
+          "body": "Powder X-ray diffraction (XRD) measures X-rays scattered by regularly spaced crystal planes. Constructive interference occurs when Bragg's condition is met. A diffractometer scans angle and records intensity; peak positions relate to plane spacing and the pattern helps identify crystalline phases and structural features."
+        },
+        {
+          "id": "xrd-formula",
+          "title": "Bragg's law",
+          "kind": "formula",
+          "body": "nλ = 2d sin θ. n is diffraction order, λ X-ray wavelength, d spacing between crystal planes and θ the Bragg angle. A plotted peak is often reported at 2θ, so calculate θ = (2θ)/2 before using the equation."
+        },
+        {
+          "id": "xrd-instrument",
+          "title": "What the diffractometer does",
+          "kind": "bullets",
+          "items": [
+            "An X-ray source produces the beam; a monochromator/optics directs it onto the sample.",
+            "The goniometer scans the angle through a selected range.",
+            "The detector measures diffracted intensity as a function of 2θ.",
+            "Peak positions reveal d-spacing; the overall pattern can be compared with reference patterns."
+          ],
+          "source": { "file": "documents/books/applied-chemistry/module-04/source/module-4.pdf", "page": 34 }
+        },
+        {
+          "id": "xrd-example",
+          "title": "Worked example · estimate crystallite size",
+          "kind": "example",
+          "body": "The lecture gives 2θ = 21.61°, FWHM β = 2.51°, K = 0.94 and Cu Kα wavelength λ = 1.5406 Å. First θ = 10.805°. Convert β to radians: 2.51π/180 ≈ 0.04381 rad. Scherrer: D = Kλ/(β cos θ) = (0.94 × 1.5406 Å)/(0.04381 × cos 10.805°) ≈ 33.7 Å = 3.37 nm. Use θ, not 2θ, in the cosine and convert FWHM to radians."
+        },
+        {
+          "id": "xrd-size",
+          "title": "Crystallite is not the same as grain",
+          "kind": "definition",
+          "body": "A crystallite is a coherently diffracting crystal region. A grain may contain multiple crystallites, and a particle may consist of one grain or an aggregate. XRD line broadening estimates crystallite size under the Scherrer model; it is not automatically the particle diameter."
+        },
+        {
+          "id": "xrd-trap",
+          "title": "Three numerical traps",
+          "kind": "trap",
+          "body": "For Scherrer calculations, use β in radians, use θ = half the measured 2θ peak position, and keep λ and D in matching units. The estimate assumes peak broadening reflects finite coherent-domain size; strain or instrumental broadening can also affect peaks."
+        },
+        {
+          "id": "xrd-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Bragg: nλ = 2d sin θ. Scherrer: D = Kλ/(β cos θ). From an XRD peak, halve 2θ; convert β to radians; distinguish crystallite size from particle size."
+        }
+      ]
+    },
+    {
+      "id": "spectroscopy-space-missions",
+      "title": "Spectrometers in space exploration",
+      "minutes": 5,
+      "source": { "file": "documents/books/applied-chemistry/module-04/source/module-4.pdf", "page": 12 },
+      "sections": [
+        {
+          "id": "mission-core",
+          "title": "Choose a signal for the question",
+          "kind": "paragraph",
+          "body": "Space missions use instruments that measure different signals to infer properties of remote environments. Spectroscopy helps analyse light or radiation from rocks, soils and atmospheres; the instrument type determines what can be inferred."
+        },
+        {
+          "id": "mission-examples",
+          "title": "Examples from the lecture",
+          "kind": "bullets",
+          "items": [
+            "Mini-TES: thermal emission spectrometer used to examine rocks, soil and atmosphere.",
+            "Mössbauer spectrometer: used to examine mineralogy of rocks and soils.",
+            "APXS: Alpha Particle X-ray Spectrometer, used to analyse elements in rocks and soils.",
+            "The lecture also lists instruments on the Chandrayaan-3 mission; distinguish spectrometers from probes and seismic instruments."
+          ]
+        },
+        {
+          "id": "mission-example",
+          "title": "Worked example · match instrument to evidence",
+          "kind": "example",
+          "body": "If the question asks which instrument the lecture associates with elemental analysis of rocks and soils, select APXS. If it asks which is used to examine mineralogy, select the Mössbauer spectrometer. The correct answer follows the instrument's measured signal and stated purpose, not just the fact that both are carried by a rover."
+        },
+        {
+          "id": "mission-trap",
+          "title": "Do not swap the instrument jobs",
+          "kind": "trap",
+          "body": "APXS is identified with elemental analysis; Mössbauer with mineralogy; Mini-TES with thermal emission. Avoid claiming that one instrument directly measures every property of the sample."
+        },
+        {
+          "id": "mission-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Mini-TES → thermal emission; Mössbauer → mineralogy; APXS → elemental composition. Match the instrument to its signal and scientific question."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    { "id": "spectra-1", "prompt": "If wavelength decreases, what happens to photon energy?", "options": ["It decreases", "It increases", "It stays zero", "It becomes unrelated to frequency"], "answer": 1, "explanation": "E = hc/λ, so energy increases as wavelength decreases.", "topicId": "spectroscopy-emr" },
+    { "id": "spectra-2", "prompt": "Which interaction means a sample takes up radiation energy?", "options": ["Absorption", "Transmission", "Reflection", "Refraction"], "answer": 0, "explanation": "Absorption transfers radiation energy to matter, often raising it to a higher energy state.", "topicId": "spectroscopy-emr" },
+    { "id": "spectra-3", "prompt": "What does a UV–Visible detector measure after light passes through a sample?", "options": ["Transmitted light intensity", "Sample mass directly", "Crystal grain count", "Only the incident wavelength"], "answer": 0, "explanation": "The detector measures transmitted intensity, which is compared with incident intensity to find absorbance or transmittance.", "topicId": "uv-visible-spectroscopy" },
+    { "id": "spectra-4", "prompt": "If I₀ = 100 units and I = 10 units, what is absorbance?", "options": ["0.1", "1.0", "10", "90"], "answer": 1, "explanation": "A = log₁₀(I₀/I) = log₁₀(100/10) = log₁₀(10) = 1.", "topicId": "uv-visible-spectroscopy" },
+    { "id": "spectra-5", "prompt": "Which sequence gives the main UV–Visible instrument path?", "options": ["Detector → sample → source → monochromator", "Source → wavelength selector → sample → detector", "Sample → X-ray anode → goniometer", "Monochromator → source → detector → sample"], "answer": 1, "explanation": "The source supplies light, the wavelength selector chooses it, the sample absorbs some, and the detector measures what transmits.", "topicId": "uv-visible-spectroscopy" },
+    { "id": "spectra-6", "prompt": "In Bragg's law, a peak is reported at 2θ = 40°. What θ belongs in nλ = 2d sin θ?", "options": ["20°", "40°", "80°", "10°"], "answer": 0, "explanation": "The diffractometer's peak position is 2θ, so θ is half of 40°.", "topicId": "powder-xrd" },
+    { "id": "spectra-7", "prompt": "What does a detector record in a powder XRD scan?", "options": ["Intensity versus diffraction angle", "Temperature versus time only", "Mass versus wavelength", "Current versus concentration"], "answer": 0, "explanation": "The XRD pattern plots diffracted intensity across 2θ positions.", "topicId": "powder-xrd" },
+    { "id": "spectra-8", "prompt": "For the Scherrer equation, which unit conversion is essential for FWHM β?", "options": ["Degrees to radians", "Radians to kelvin", "Ångströms to seconds", "Nanometres to amperes"], "answer": 0, "explanation": "β must be in radians for the Scherrer calculation.", "topicId": "powder-xrd" },
+    { "id": "spectra-9", "prompt": "What size does the Scherrer equation estimate?", "options": ["Coherently diffracting crystallite size", "Automatically the whole particle diameter", "Only the unit-cell side length", "The X-ray detector size"], "answer": 0, "explanation": "Scherrer analysis estimates the coherent crystallite domain size, not necessarily the full particle size.", "topicId": "powder-xrd" },
+    { "id": "spectra-10", "prompt": "Which instrument is associated with elemental analysis of rocks and soils?", "options": ["APXS", "Mössbauer spectrometer", "Mini-TES", "Seismometer"], "answer": 0, "explanation": "The lecture identifies APXS as the Alpha Particle X-ray Spectrometer for elemental analysis.", "topicId": "spectroscopy-space-missions" },
+    { "id": "spectra-11", "prompt": "Which lecture instrument is used to examine mineralogy of rocks and soils?", "options": ["Mössbauer spectrometer", "APXS", "UV cuvette", "Thermal probe"], "answer": 0, "explanation": "The lecture assigns mineralogy analysis to the Mössbauer spectrometer.", "topicId": "spectroscopy-space-missions" },
+    { "id": "spectra-12", "prompt": "Mini-TES is associated with measuring:", "options": ["Thermal emission", "DNA sequence", "Electrical resistance", "Only visible colour"], "answer": 0, "explanation": "Mini-TES is a miniature thermal emission spectrometer.", "topicId": "spectroscopy-space-missions" }
+  ]
+}

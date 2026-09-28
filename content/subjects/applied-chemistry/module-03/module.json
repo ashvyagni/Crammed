@@ -1,0 +1,238 @@
+{
+  "id": "applied-chemistry/module-03",
+  "title": "Electrical materials",
+  "description": "Connect current and resistance to the band structure that makes a material a conductor, semiconductor or insulator.",
+  "accent": "clay",
+  "sourceFiles": [
+    "documents/books/applied-chemistry/module-03/source/module-3.pdf"
+  ],
+  "topics": [
+    {
+      "id": "ohms-law-resistivity",
+      "title": "Ohm's law and resistivity",
+      "minutes": 7,
+      "source": { "file": "documents/books/applied-chemistry/module-03/source/module-3.pdf", "page": 2 },
+      "sections": [
+        {
+          "id": "ohm-core",
+          "title": "Relate voltage, current and resistance",
+          "kind": "paragraph",
+          "body": "For an ohmic conductor at fixed physical conditions, Ohm's law is V = IR. Voltage V is measured in volts, current I in amperes and resistance R in ohms. A specimen's resistance depends on its material and geometry. Resistivity ρ is a material property in the stated conditions; for a uniform specimen, R = ρL/A, where L is length and A is cross-sectional area."
+        },
+        {
+          "id": "ohm-formula",
+          "title": "Two equations to keep distinct",
+          "kind": "formula",
+          "body": "Ohm's law: V = IR. Geometry and material: R = ρL/A. Therefore ρ = RA/L. Use consistent units; for SI, ρ is in Ω·m when R is in Ω, L in m and A in m²."
+        },
+        {
+          "id": "ohm-example",
+          "title": "Worked example · calculate resistance and resistivity",
+          "kind": "example",
+          "body": "A wire carries 0.50 A when 6.0 V is applied. Its resistance is R = V/I = 6.0/0.50 = 12 Ω. If the wire is 2.0 m long with cross-sectional area 1.0 × 10⁻⁶ m², then ρ = RA/L = (12)(1.0 × 10⁻⁶)/2.0 = 6.0 × 10⁻⁶ Ω·m. This illustrative calculation applies the equations; it is not a measurement reported in the lecture."
+        },
+        {
+          "id": "ohm-trap",
+          "title": "Check assumptions and units",
+          "kind": "trap",
+          "body": "V = IR is not a universal straight-line law for every material or every condition; the lecture notes that it applies to most, not all, materials. Do not confuse resistance, which depends on specimen dimensions, with resistivity, which characterizes the material under stated conditions."
+        },
+        {
+          "id": "ohm-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Use V = IR for an ohmic specimen. Use R = ρL/A to account for dimensions; longer means more resistance, larger area means less."
+        }
+      ]
+    },
+    {
+      "id": "band-theory-classification",
+      "title": "Energy bands classify materials",
+      "minutes": 6,
+      "source": { "file": "documents/books/applied-chemistry/module-03/source/module-3.pdf", "page": 3 },
+      "sections": [
+        {
+          "id": "bands-core",
+          "title": "From atomic levels to solid bands",
+          "kind": "paragraph",
+          "body": "When many atoms form a solid, interactions split and broaden their allowed electron energy levels into bands. The valence band contains bound valence electrons; the conduction band contains states in which electrons can move through the solid. The forbidden gap separates allowed bands. Its size and occupancy help explain electrical behaviour."
+        },
+        {
+          "id": "bands-compare",
+          "title": "Compare the band pictures",
+          "kind": "bullets",
+          "items": [
+            "Conductors: valence and conduction bands overlap or the conduction band is partly occupied, so mobile carriers are available.",
+            "Semiconductors: a relatively small band gap allows some carriers to reach the conduction band; conductivity changes with conditions.",
+            "Insulators: a large gap leaves very few carriers in the conduction band under ordinary conditions.",
+            "These are useful band-model descriptions; real conductivity also depends on temperature, impurities and material structure."
+          ],
+          "source": { "file": "documents/books/applied-chemistry/module-03/source/module-3.pdf", "page": 7 }
+        },
+        {
+          "id": "bands-example",
+          "title": "Worked example · predict a category",
+          "kind": "example",
+          "body": "A material whose valence and conduction bands overlap has accessible mobile electrons without first crossing a substantial forbidden gap. The band model therefore predicts conductor-like behaviour. If instead the gap is small, a modest thermal or optical input can create carriers and the material may behave as a semiconductor. A large gap makes carrier creation much harder, which is the insulator picture."
+        },
+        {
+          "id": "bands-trap",
+          "title": "Do not call the bands physical layers",
+          "kind": "trap",
+          "body": "Valence and conduction bands are allowed electron-energy ranges, not layers inside the material. Band diagrams explain available states; they do not mean electrons literally move through a physical gap."
+        },
+        {
+          "id": "bands-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Band overlap gives conductors many available carriers; a small gap characterizes semiconductors; a large gap makes an insulator difficult to conduct."
+        }
+      ]
+    },
+    {
+      "id": "conducting-metals",
+      "title": "Conducting materials and metals",
+      "minutes": 5,
+      "source": { "file": "documents/books/applied-chemistry/module-03/source/module-3.pdf", "page": 10 },
+      "sections": [
+        {
+          "id": "metals-core",
+          "title": "Low resistivity is useful in conductors",
+          "kind": "paragraph",
+          "body": "Electrical conductors are selected to carry current with low resistive loss. The lecture focuses on conducting materials used in electrical machines and equipment. Copper is highlighted for high conductivity and useful fabrication properties; aluminium is lightweight and used in conductors, including aluminium-conductor steel-reinforced (ACSR) construction."
+        },
+        {
+          "id": "metal-selection",
+          "title": "Material choice is a trade-off",
+          "kind": "bullets",
+          "items": [
+            "Copper: high conductivity and useful malleability, weldability and solderability; purity affects conductivity.",
+            "Aluminium: lower mass than copper and used in overhead conductors; ACSR adds a central steel core for mechanical support.",
+            "Impurities and alloying can increase resistivity, so conductivity alone does not determine the best engineering choice."
+          ],
+          "source": { "file": "documents/books/applied-chemistry/module-03/source/module-3.pdf", "page": 11 }
+        },
+        {
+          "id": "metals-example",
+          "title": "Worked example · choose a transmission wire",
+          "kind": "example",
+          "body": "For a long overhead line, low mass and mechanical strength matter alongside electrical resistance. Aluminium is lighter, and an ACSR design combines aluminium conducting strands with a steel reinforcing core. For compact equipment windings where conductivity and fabrication are priorities, copper may be preferred. The choice depends on the design constraints rather than a single “best metal.”"
+        },
+        {
+          "id": "metals-trap",
+          "title": "Keep conductivity and strength separate",
+          "kind": "trap",
+          "body": "A mechanical support core is not the main current-carrying material just because it is part of the conductor assembly. Also avoid claiming that aluminium is always superior to copper; weight, size, mechanical requirements and connections matter."
+        },
+        {
+          "id": "metals-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Copper offers high conductivity; aluminium offers low mass and is used in ACSR. Select for the whole application, not conductivity alone."
+        }
+      ]
+    },
+    {
+      "id": "silicon-semiconductors",
+      "title": "Intrinsic and doped silicon",
+      "minutes": 8,
+      "source": { "file": "documents/books/applied-chemistry/module-03/source/module-3.pdf", "page": 14 },
+      "sections": [
+        {
+          "id": "silicon-core",
+          "title": "A small band gap makes control possible",
+          "kind": "paragraph",
+          "body": "Semiconductors have electrical conductivity between typical conductors and insulators, and their conductivity can be controlled. The lecture identifies silicon and germanium as elemental semiconductors with a small band gap. In a pure (intrinsic) semiconductor, thermal energy can create an electron and a hole; both carrier types are present."
+        },
+        {
+          "id": "silicon-doping",
+          "title": "Doping adds a controlled impurity",
+          "kind": "bullets",
+          "items": [
+            "Intrinsic: chemically pure semiconductor; electrons and holes are generated in pairs.",
+            "n-type: dope silicon with a pentavalent atom such as phosphorus; the extra valence electron can become mobile, so electrons are majority carriers.",
+            "p-type: dope silicon with a trivalent atom such as boron; an incomplete bond creates a hole, so holes are majority carriers.",
+            "Doping changes carrier concentration and conductivity; it does not turn the whole crystal into a charged object."
+          ],
+          "source": { "file": "documents/books/applied-chemistry/module-03/source/module-3.pdf", "page": 18 }
+        },
+        {
+          "id": "silicon-example",
+          "title": "Worked example · classify the dopant",
+          "kind": "example",
+          "body": "Add a small amount of phosphorus (five valence electrons) to silicon, whose atoms form four covalent bonds. Four phosphorus electrons can participate in bonding, leaving an extra electron that can move: the doped crystal is n-type. Add boron (three valence electrons) instead and one bond has an electron deficiency, creating a hole: the crystal is p-type."
+        },
+        {
+          "id": "silicon-temperature",
+          "title": "Temperature also changes conductivity",
+          "kind": "paragraph",
+          "body": "The lecture notes that at 0 K carriers are frozen in the valence band and a semiconductor behaves as an insulator. As temperature rises, more carriers can be excited and semiconductor conductivity increases (resistivity decreases). This temperature trend is opposite to the common behaviour of metallic conductors."
+        },
+        {
+          "id": "silicon-trap",
+          "title": "Do not swap majority carriers",
+          "kind": "trap",
+          "body": "n-type means electrons are the majority carriers, not that the crystal has a net negative charge. p-type means holes are the majority carriers, not that the crystal is a net positive ion."
+        },
+        {
+          "id": "silicon-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Pure silicon is intrinsic. Phosphorus donor → n-type/electron majority; boron acceptor → p-type/hole majority. Semiconductor conductivity generally rises with temperature."
+        }
+      ]
+    },
+    {
+      "id": "insulators-superconductors",
+      "title": "Insulators and superconductors",
+      "minutes": 6,
+      "source": { "file": "documents/books/applied-chemistry/module-03/source/module-3.pdf", "page": 23 },
+      "sections": [
+        {
+          "id": "insulator-core",
+          "title": "Insulators resist ordinary current flow",
+          "kind": "paragraph",
+          "body": "An insulator has a large forbidden energy gap, so ordinary conditions leave very few mobile carriers in its conduction band. The lecture gives a gap of about 15 eV as a simplified illustration and lists glass, insulating resins, laminates and enamels as examples used in electrical applications."
+        },
+        {
+          "id": "superconductor-core",
+          "title": "Zero resistance below a critical temperature",
+          "kind": "definition",
+          "body": "A superconductor is a material that enters a superconducting state below a material-dependent critical (transition) temperature, with zero electrical resistance. The lecture also describes magnetic-field expulsion, the Meissner effect. Its example is mercury, which becomes superconducting near 4 K."
+        },
+        {
+          "id": "insulator-example",
+          "title": "Worked example · insulation or superconductivity?",
+          "kind": "example",
+          "body": "A glass spacer in an electrical assembly is chosen to resist current at ordinary operating conditions: that is an insulating role. A mercury sample cooled below its critical temperature is instead a superconductor; it does not merely become a better ordinary conductor, but enters a distinct state with zero resistance and the Meissner effect."
+        },
+        {
+          "id": "superconductor-trap",
+          "title": "Temperature is part of the definition",
+          "kind": "trap",
+          "body": "Do not call a material superconducting at every temperature. It must be below its critical temperature and in the superconducting state. Zero resistance and the Meissner effect are the key distinctions in this lecture."
+        },
+        {
+          "id": "insulator-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Large band gap → few carriers and insulating behaviour. Below its critical temperature, a superconductor has zero resistance and expels magnetic field."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    { "id": "materials-1", "prompt": "A 12 Ω resistor carries 0.50 A. What voltage is across it?", "options": ["6.0 V", "24 V", "0.042 V", "12.5 V"], "answer": 0, "explanation": "Use V = IR: (0.50 A)(12 Ω) = 6.0 V.", "topicId": "ohms-law-resistivity" },
+    { "id": "materials-2", "prompt": "For a uniform wire, which change reduces resistance if material and length stay fixed?", "options": ["Decrease its cross-sectional area", "Increase its cross-sectional area", "Increase its resistivity", "Replace metres with centimetres without conversion"], "answer": 1, "explanation": "R = ρL/A, so increasing area decreases resistance.", "topicId": "ohms-law-resistivity" },
+    { "id": "materials-3", "prompt": "What is the key band-model feature of a conductor?", "options": ["A very large forbidden gap", "Overlapping or partly occupied bands that provide mobile carriers", "No electrons in any band", "Only holes can carry charge"], "answer": 1, "explanation": "Band overlap or partial occupation makes mobile carriers readily available.", "topicId": "band-theory-classification" },
+    { "id": "materials-4", "prompt": "Why can a semiconductor conduct more as its temperature rises?", "options": ["Its band gap disappears in every case", "More charge carriers can be thermally excited", "It becomes a metal with no temperature dependence", "Its atoms stop vibrating"], "answer": 1, "explanation": "Thermal energy can excite more carriers across the small gap, increasing conductivity.", "topicId": "band-theory-classification" },
+    { "id": "materials-5", "prompt": "Which application detail best matches the lecture's copper discussion?", "options": ["High conductivity and useful fabrication properties", "Used only as an electrical insulator", "Its conductivity is unaffected by impurities", "It is the steel core in ACSR"], "answer": 0, "explanation": "The lecture highlights copper's conductivity, malleability, weldability and solderability.", "topicId": "conducting-metals" },
+    { "id": "materials-6", "prompt": "What does ACSR combine?", "options": ["A copper core with a plastic outer shell", "A steel support core with surrounding aluminium wires", "A silicon wafer and electrolyte", "A superconducting mercury core"], "answer": 1, "explanation": "ACSR uses a central steel core surrounded by aluminium conductor strands.", "topicId": "conducting-metals" },
+    { "id": "materials-7", "prompt": "Phosphorus-doped silicon is usually classified as:", "options": ["p-type, with holes as majority carriers", "n-type, with electrons as majority carriers", "intrinsic and undoped", "an insulator"], "answer": 1, "explanation": "Pentavalent phosphorus contributes an extra mobile electron, making silicon n-type.", "topicId": "silicon-semiconductors" },
+    { "id": "materials-8", "prompt": "What carrier is associated with boron-doped p-type silicon?", "options": ["A hole", "A neutron", "A proton in the nucleus", "A free lithium ion"], "answer": 0, "explanation": "Trivalent boron leaves an electron deficiency in the bonding structure, represented as a hole.", "topicId": "silicon-semiconductors" },
+    { "id": "materials-9", "prompt": "Which statement about p-type material is correct?", "options": ["The whole crystal has net positive charge", "Holes are majority carriers, but the crystal remains electrically neutral overall", "It contains no electrons", "It must be doped with phosphorus"], "answer": 1, "explanation": "p-type names its majority carrier; the doped crystal is not a macroscopic positive ion.", "topicId": "silicon-semiconductors" },
+    { "id": "materials-10", "prompt": "What is the role of a large forbidden gap in an insulator?", "options": ["It makes mobile carriers difficult to create under ordinary conditions", "It guarantees zero resistance at room temperature", "It makes valence and conduction bands overlap", "It causes all electrons to leave the material"], "answer": 0, "explanation": "A large gap leaves few electrons in the conduction band under ordinary conditions.", "topicId": "insulators-superconductors" },
+    { "id": "materials-11", "prompt": "Below what condition does a material enter its superconducting state?", "options": ["Above its melting point", "Below its critical temperature", "Only when illuminated", "When its resistance becomes infinite"], "answer": 1, "explanation": "The critical temperature marks the transition into the superconducting state.", "topicId": "insulators-superconductors" },
+    { "id": "materials-12", "prompt": "Which phenomenon is the expulsion of magnetic field from a superconducting state?", "options": ["Hall effect", "Meissner effect", "Photoelectric effect", "Doppler effect"], "answer": 1, "explanation": "The lecture identifies magnetic-field expulsion as the Meissner effect.", "topicId": "insulators-superconductors" }
+  ]
+}

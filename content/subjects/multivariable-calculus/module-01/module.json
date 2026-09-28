@@ -1,0 +1,51 @@
+{
+  "id": "multivariable-calculus/module-01",
+  "title": "Partial derivatives",
+  "description": "Read how a function of several variables changes when you move in just one direction.",
+  "accent": "lavender",
+  "sourceFiles": ["CRAMMED demonstration notes — not course material"],
+  "topics": [
+    {
+      "id": "partial-basics",
+      "title": "Change one variable at a time",
+      "minutes": 5,
+      "sections": [
+        { "id": "core", "title": "Hold the others steady", "kind": "paragraph", "body": "For a function of several variables, a partial derivative measures change with respect to one variable while the other variables are held constant." },
+        { "id": "notation", "title": "Notation", "kind": "formula", "body": "For z = f(x, y):\n∂f/∂x  or  fₓ\n∂f/∂y  or  fᵧ" },
+        { "id": "example", "title": "Change one input", "kind": "example", "body": "For f(x, y) = x²y + 3y, hold y fixed: fₓ = 2xy. At (3, 2), the rate of change in the x direction is 12; changing y is a separate question." },
+        { "id": "trap", "title": "Easy mix-up", "kind": "trap", "body": "When differentiating with respect to x, terms containing only y are constants, but they do not disappear unless their derivative with respect to x is zero." },
+        { "id": "recap", "title": "30-second recap", "kind": "recap", "body": "Differentiate with respect to the named variable; treat all the other variables as constants." }
+      ]
+    },
+    {
+      "id": "higher-partials",
+      "title": "Second partial derivatives",
+      "minutes": 5,
+      "sections": [
+        { "id": "core", "title": "Differentiate again", "kind": "paragraph", "body": "A second partial derivative differentiates a first partial derivative once more. You can differentiate twice with respect to the same variable or use two different variables." },
+        { "id": "formula", "title": "Common notation", "kind": "formula", "body": "fₓₓ = ∂²f/∂x²\nfₓᵧ = ∂/∂y (∂f/∂x)" },
+        { "id": "example", "title": "Follow the order", "kind": "example", "body": "For f(x, y) = x²y, first find fₓ = 2xy. Now differentiate that result with respect to y: fₓᵧ = 2x. At x = 3, this mixed partial is 6." },
+        { "id": "definition", "title": "Mixed partials", "kind": "definition", "body": "A mixed partial derivative differentiates with respect to more than one variable, in a specified order." },
+        { "id": "recap", "title": "30-second recap", "kind": "recap", "body": "Read subscripts as instructions. For fₓᵧ, find fₓ first, then differentiate that result with respect to y." }
+      ]
+    },
+    {
+      "id": "gradient",
+      "title": "The gradient",
+      "minutes": 5,
+      "sections": [
+        { "id": "core", "title": "A vector of partial derivatives", "kind": "paragraph", "body": "For a differentiable scalar-valued function, the gradient collects its first partial derivatives into a vector. It points in the direction of greatest local increase." },
+        { "id": "formula", "title": "In two variables", "kind": "formula", "body": "∇f(x, y) = ⟨fₓ, fᵧ⟩" },
+        { "id": "example", "title": "A height map", "kind": "example", "visual": "gradient", "body": "Treat f(x, y) = x² + y² as the height of a bowl. At (3, 4), ∇f = ⟨6, 8⟩ points toward the steepest climb. The direction—not just the height—is what the gradient adds." },
+        { "id": "trap", "title": "Keep the distinction", "kind": "trap", "body": "The function value is a scalar. Its gradient is a vector made from its partial derivatives." },
+        { "id": "recap", "title": "30-second recap", "kind": "recap", "body": "Build the gradient from first partial derivatives. For a scalar field, it points toward greatest increase." }
+      ]
+    }
+  ],
+  "questions": [
+    { "id": "calc-1", "prompt": "For f(x, y) = x²y + 3y, what is ∂f/∂x?", "options": ["x² + 3", "2xy", "2x + 3", "y"], "answer": 1, "explanation": "Treat y as a constant and differentiate x²y + 3y with respect to x, giving 2xy.", "topicId": "partial-basics" },
+    { "id": "calc-2", "prompt": "For f(x, y) = x²y, what is fₓᵧ?", "options": ["2xy", "2x", "x²", "2y"], "answer": 1, "explanation": "First fₓ = 2xy; differentiating that with respect to y gives 2x.", "topicId": "higher-partials" },
+    { "id": "calc-3", "prompt": "What kind of quantity is the gradient of a scalar-valued function?", "options": ["A scalar", "A vector", "A matrix in every case", "A constant"], "answer": 1, "explanation": "The gradient collects the first partial derivatives into a vector.", "topicId": "gradient" },
+    { "id": "calc-4", "prompt": "When calculating ∂f/∂y, what do you do with x?", "options": ["Treat x as a constant", "Set x to zero", "Differentiate with respect to x too", "Replace x with y"], "answer": 0, "explanation": "In a partial derivative with respect to y, the other variables are held constant.", "topicId": "partial-basics" }
+  ]
+}

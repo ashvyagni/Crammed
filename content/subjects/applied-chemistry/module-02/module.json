@@ -1,0 +1,306 @@
+{
+  "id": "applied-chemistry/module-02",
+  "title": "Energy devices",
+  "description": "Trace how electrochemical cells, batteries, fuel cells and solar devices turn chemical or light energy into useful output.",
+  "accent": "clay",
+  "sourceFiles": [
+    "documents/books/applied-chemistry/module-02/source/module-2.pdf"
+  ],
+  "topics": [
+    {
+      "id": "electrochemical-cells",
+      "title": "Electrochemical cells",
+      "minutes": 7,
+      "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 3 },
+      "sections": [
+        {
+          "id": "cell-core",
+          "title": "Two directions for energy conversion",
+          "kind": "paragraph",
+          "body": "An electrochemical cell couples chemical change with electrical energy. A galvanic (voltaic) cell uses a spontaneous redox reaction to deliver electrical energy; an electrolytic cell uses an external electrical supply to drive a non-spontaneous reaction. Both have two electronic conductors (electrodes), an ion-conducting electrolyte and an external electron path."
+        },
+        {
+          "id": "electrode-definitions",
+          "title": "Anode and cathode",
+          "kind": "definition",
+          "body": "Oxidation occurs at the anode; reduction occurs at the cathode. These reaction names do not switch. In a discharging galvanic cell, the anode is negative and the cathode positive; in an electrolytic cell, the external source sets the electrode signs."
+        },
+        {
+          "id": "cell-comparison",
+          "title": "Compare the cell types",
+          "kind": "bullets",
+          "items": [
+            "Galvanic/voltaic: spontaneous redox → electrical output; ΔG is negative for the cell reaction.",
+            "Electrolytic: supplied electrical energy → a non-spontaneous chemical change.",
+            "Electrons move through the external circuit; ions carry charge through the electrolyte.",
+            "A salt bridge or separator can complete the ionic path while limiting direct mixing."
+          ]
+        },
+        {
+          "id": "cell-example",
+          "title": "Worked example · identify the reactions",
+          "kind": "example",
+          "body": "In the zinc–copper galvanic cell, zinc is oxidized: Zn(s) → Zn²⁺(aq) + 2e⁻, so the zinc electrode is the anode. Copper ions are reduced: Cu²⁺(aq) + 2e⁻ → Cu(s), so the copper electrode is the cathode. The electrons released at zinc travel through the wire to the copper side. The cell notation is Zn | Zn²⁺ || Cu²⁺ | Cu. The source illustrates this cell and the electrolysis of molten NaCl."
+        },
+        {
+          "id": "cell-trap",
+          "title": "Easy mix-up",
+          "kind": "trap",
+          "body": "Do not memorize “anode is negative” as a universal rule. Memorize oxidation at the anode and reduction at the cathode; electrode polarity depends on whether the cell is galvanic or electrolytic."
+        },
+        {
+          "id": "cell-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Galvanic cells generate electricity from spontaneous redox; electrolytic cells consume electricity to drive a reaction. An Ox, Red: oxidation at anode, reduction at cathode."
+        }
+      ]
+    },
+    {
+      "id": "electrode-materials",
+      "title": "Electrodes and semiconductors",
+      "minutes": 6,
+      "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 10 },
+      "sections": [
+        {
+          "id": "electrode-core",
+          "title": "The electrode must conduct and contact the reaction",
+          "kind": "paragraph",
+          "body": "An electrode provides an electron-conducting surface where oxidation or reduction occurs. Depending on the cell, it may be an active material that participates in the reaction or an inert conductor that transfers electrons without being consumed. The electrolyte must carry ions; it is not the external electron wire."
+        },
+        {
+          "id": "electrode-materials",
+          "title": "Choose a material for its job",
+          "kind": "bullets",
+          "items": [
+            "Metal electrodes such as zinc and copper can participate directly in redox reactions.",
+            "Graphite is a conducting carbon material used as an electrode or support in several devices.",
+            "Platinum can catalyse electrode reactions; fuel-cell electrodes use porous conducting material so reactants can reach active sites.",
+            "Semiconductors such as silicon are used where light absorption and charge-carrier generation are part of the device."
+          ]
+        },
+        {
+          "id": "electrode-example",
+          "title": "Worked example · choose the interface",
+          "kind": "example",
+          "body": "For a hydrogen–oxygen fuel cell, hydrogen and oxygen react at porous, conducting catalytic electrodes, while the electrolyte carries ions between the sides. For a silicon photovoltaic cell, the semiconductor absorbs light and creates mobile charge carriers. Both are electrodes or active interfaces, but their material is chosen for a different role: catalysing a redox reaction versus converting light into separated charge."
+        },
+        {
+          "id": "electrode-trap",
+          "title": "Do not treat every electrode as inert",
+          "kind": "trap",
+          "body": "An electrode may be consumed or changed in a cell; “electrode” only identifies the electron-conducting reaction site. Also distinguish ionic conduction in an electrolyte from electron conduction in the external circuit."
+        },
+        {
+          "id": "electrode-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Electrodes carry electrons to and from reaction sites; electrolytes carry ions. Material choice follows the job: reaction, catalysis, conductivity or light absorption."
+        }
+      ]
+    },
+    {
+      "id": "battery-types-lithium-ion",
+      "title": "Batteries and lithium-ion chemistry",
+      "minutes": 9,
+      "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 25 },
+      "sections": [
+        {
+          "id": "battery-types",
+          "title": "Primary, secondary and flow systems",
+          "kind": "paragraph",
+          "body": "A battery contains one or more electrochemical cells connected to provide electrical energy. A primary cell has a reaction not intended to be reversed by recharging; a secondary cell can be recharged by driving the reaction in the reverse direction. The source also distinguishes flow batteries and fuel cells, in which reactants or other materials are supplied through the device."
+        },
+        {
+          "id": "liion-parts",
+          "title": "Inside a lithium-ion cell",
+          "kind": "bullets",
+          "items": [
+            "The negative electrode is commonly graphite, which can host lithium between its layers.",
+            "The positive electrode is a lithium-containing material; the lecture lists lithium metal oxides and polyanionic materials.",
+            "An organic-carbonate electrolyte conducts lithium ions between the electrodes.",
+            "A lithium-ion battery is secondary; it does not use a lump of metallic lithium as its ordinary anode."
+          ],
+          "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 28 }
+        },
+        {
+          "id": "liion-example",
+          "title": "Worked example · follow a lithium ion",
+          "kind": "example",
+          "body": "During discharge, lithium leaves the graphite-side negative electrode as Li⁺ and travels through the electrolyte toward the positive electrode. Electrons cannot use that ionic path, so they travel through the external load and deliver electrical energy. During charging, an external source drives Li⁺ and electrons back toward the graphite electrode. Keep the two paths separate: ions through electrolyte, electrons through the circuit."
+        },
+        {
+          "id": "liion-equations",
+          "title": "Read the intercalation reaction",
+          "kind": "formula",
+          "body": "At the graphite electrode: C₆ + xLi⁺ + xe⁻ ⇌ LiₓC₆. During charging, lithium is inserted into graphite; during discharge, the reaction runs in reverse. The lecture also writes the corresponding lithium-manganese-oxide electrode reaction."
+        },
+        {
+          "id": "liion-trap",
+          "title": "Charge direction is not electron direction",
+          "kind": "trap",
+          "body": "Do not say lithium ions flow through the wire: Li⁺ moves through the electrolyte, while electrons flow through the external circuit. Also, the electrode labels in a rechargeable cell describe the reaction convention; avoid assuming a fixed sign for charge and discharge without stating the operating mode."
+        },
+        {
+          "id": "battery-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Primary cells are not reversibly recharged; secondary cells are. In Li-ion cells, Li⁺ shuttles through the electrolyte while electrons pass through the load; charging reverses the discharge process."
+        }
+      ]
+    },
+    {
+      "id": "fuel-cells",
+      "title": "Hydrogen–oxygen and solid-oxide fuel cells",
+      "minutes": 8,
+      "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 36 },
+      "sections": [
+        {
+          "id": "fuel-core",
+          "title": "A cell supplied with fuel",
+          "kind": "paragraph",
+          "body": "A fuel cell converts chemical energy from a supplied fuel and oxidant into electrical energy through electrode reactions. Unlike a sealed battery that stores a finite reactant supply inside, a fuel cell can continue operating while fuel and oxidant are supplied and products are removed."
+        },
+        {
+          "id": "h2-o2",
+          "title": "Hydrogen–oxygen cell",
+          "kind": "bullets",
+          "items": [
+            "Hydrogen is fed to the anode and oxidized; oxygen is fed to the cathode and reduced.",
+            "The source describes porous conducting electrodes with catalysts and either acidic or alkaline electrolyte examples.",
+            "The overall reaction is 2H₂ + O₂ → 2H₂O, releasing electrical energy and heat.",
+            "For alkaline electrolyte, the half-reactions shown are 2H₂ + 4OH⁻ → 4H₂O + 4e⁻ and O₂ + 2H₂O + 4e⁻ → 4OH⁻."
+          ],
+          "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 39 }
+        },
+        {
+          "id": "fuel-example",
+          "title": "Worked example · balance the net reaction",
+          "kind": "example",
+          "body": "Multiply or compare the two alkaline half-reactions so that four electrons produced at the hydrogen electrode cancel the four electrons consumed at the oxygen electrode. Adding them cancels OH⁻ and leaves 2H₂ + O₂ → 2H₂O. The cancelled electrons are transferred through the external circuit, where they can do electrical work."
+        },
+        {
+          "id": "sofc",
+          "title": "What makes an SOFC different?",
+          "kind": "definition",
+          "body": "A solid oxide fuel cell uses a solid oxide electrolyte that conducts oxide ions at elevated operating temperature. Oxygen is reduced at the cathode to O²⁻; oxide ions cross the electrolyte and react with hydrogen at the anode to form water and release electrons. The lecture lists SOFCs among the main fuel-cell types and describes their high-temperature operation."
+        },
+        {
+          "id": "fuel-trap",
+          "title": "Do not confuse cell types",
+          "kind": "trap",
+          "body": "A fuel cell is not simply a battery with a different name: its reactants are supplied as it operates. Do not transfer the alkaline half-reactions to an SOFC; the charge carrier in a solid-oxide electrolyte is O²⁻."
+        },
+        {
+          "id": "fuel-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Fuel and oxidant are continuously supplied. H₂/O₂ cells form water; an SOFC transports oxide ions through a hot solid electrolyte."
+        }
+      ]
+    },
+    {
+      "id": "photovoltaic-cells",
+      "title": "Silicon photovoltaic cells",
+      "minutes": 7,
+      "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 14 },
+      "sections": [
+        {
+          "id": "pv-core",
+          "title": "From absorbed light to current",
+          "kind": "paragraph",
+          "body": "A photovoltaic cell converts light into electrical output. In a semiconductor, an absorbed photon with sufficient energy can promote an electron and leave a hole. The junction's internal electric field separates these charge carriers; a connected circuit lets them produce current."
+        },
+        {
+          "id": "silicon-types",
+          "title": "Silicon cell forms",
+          "kind": "bullets",
+          "items": [
+            "The lecture compares crystalline silicon with other solar-energy conversion routes and gives typical photovoltaic efficiency ranges.",
+            "Single-crystal silicon has an ordered repeating crystal structure; it is typically more efficient but more expensive to manufacture than less ordered forms.",
+            "A semiconductor junction is essential: light creates carriers, and the junction helps prevent immediate recombination."
+          ],
+          "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 14 }
+        },
+        {
+          "id": "pv-example",
+          "title": "Worked example · why does a junction matter?",
+          "kind": "example",
+          "body": "Imagine light creates an electron–hole pair in silicon. If the pair recombines immediately, no useful charge reaches the circuit. At a p–n junction, the built-in field drives electrons and holes in opposite directions; with contacts and an external load, that separation supports a current. The energy source is light, not a consumed chemical fuel."
+        },
+        {
+          "id": "pv-trap",
+          "title": "Separate the three steps",
+          "kind": "trap",
+          "body": "Absorption creates charge carriers; separation directs them; the external circuit carries current. A cell does not produce sustained useful current from light absorption alone if the charges simply recombine."
+        },
+        {
+          "id": "pv-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Silicon absorbs light, generates electron–hole pairs, and a junction separates them so an external circuit can deliver electrical energy."
+        }
+      ]
+    },
+    {
+      "id": "photoelectrochemical-and-dye-cells",
+      "title": "Photoelectrochemical and dye-sensitized cells",
+      "minutes": 7,
+      "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 60 },
+      "sections": [
+        {
+          "id": "pec-core",
+          "title": "Light at a semiconductor–electrolyte interface",
+          "kind": "paragraph",
+          "body": "A photoelectrochemical (PEC) cell places a photoactive semiconductor electrode in contact with an electrolyte. When the semiconductor absorbs light with energy above its band gap, electron–hole pairs form. The junction helps separate them so oxidation and reduction can take place at different interfaces."
+        },
+        {
+          "id": "pec-types",
+          "title": "Two PEC routes in the lecture",
+          "kind": "bullets",
+          "items": [
+            "A liquid-junction solar cell uses a semiconductor/electrolyte interface to generate photocurrent.",
+            "Photoelectrosynthesis uses light-driven charge transfer to help make chemical products or fuels.",
+            "A dye-sensitized solar cell uses a light-absorbing dye coupled to a semiconductor and an electrolyte/redox mediator; the lecture groups it with solar-energy conversion cells."
+          ],
+          "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 51 }
+        },
+        {
+          "id": "pec-example",
+          "title": "Worked example · distinguish PV and PEC",
+          "kind": "example",
+          "body": "Both a silicon photovoltaic junction and a liquid-junction PEC cell use light to create separated charge. In the silicon PV cell, contacts deliver electrical current to a load. In a PEC cell, the photoactive semiconductor contacts an electrolyte, and the separated carriers can drive oxidation and reduction at the interface. State the interface and useful output to tell the two devices apart."
+        },
+        {
+          "id": "pec-trap",
+          "title": "Do not confuse cell names with one mechanism",
+          "kind": "trap",
+          "body": "A PEC cell may produce photocurrent or drive chemical synthesis depending on its configuration. Do not claim every photoelectrochemical cell makes the same product or has the same efficiency."
+        },
+        {
+          "id": "pec-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "PEC: light-active semiconductor + electrolyte interface. Dye-sensitized cells use a dye to absorb light; photoelectrosynthesis aims at chemical products."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    { "id": "energy-1", "prompt": "What is the defining energy change in a galvanic cell?", "options": ["Electrical energy drives a non-spontaneous reaction", "A spontaneous redox reaction produces electrical energy", "Light is converted only into heat", "Ions are converted into protons"], "answer": 1, "explanation": "A galvanic or voltaic cell converts energy released by a spontaneous redox reaction into electrical energy.", "topicId": "electrochemical-cells", "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 4 } },
+    { "id": "energy-2", "prompt": "Which statement is always true for electrode reaction names?", "options": ["Oxidation occurs at the anode", "The anode is always positive", "Reduction occurs at the anode", "The cathode is always negative"], "answer": 0, "explanation": "Oxidation is at the anode and reduction at the cathode; signs vary by cell type.", "topicId": "electrochemical-cells" },
+    { "id": "energy-3", "prompt": "In a zinc–copper galvanic cell, what happens at the zinc electrode?", "options": ["Zn²⁺ gains electrons to form zinc", "Zinc is oxidized and releases electrons", "Oxygen is reduced", "Copper is oxidized"], "answer": 1, "explanation": "Zinc loses electrons: Zn → Zn²⁺ + 2e⁻. Oxidation occurs at the anode.", "topicId": "electrochemical-cells" },
+    { "id": "energy-4", "prompt": "What carries charge through the electrolyte?", "options": ["Electrons only", "Ions", "Photons", "Neutrons"], "answer": 1, "explanation": "Ions move through the electrolyte; electrons move through the external conducting path.", "topicId": "electrode-materials" },
+    { "id": "energy-5", "prompt": "Why are fuel-cell electrodes often porous and catalytic?", "options": ["To prevent reactants reaching reaction sites", "To provide conducting reaction area and help reactions occur", "To store all the fuel permanently", "To insulate the external circuit"], "answer": 1, "explanation": "Porosity allows reactants access to active surface, while the catalyst supports electrode reactions.", "topicId": "electrode-materials" },
+    { "id": "energy-6", "prompt": "Which best distinguishes a primary from a secondary battery?", "options": ["A primary battery is intended to be recharged; a secondary one is not", "A secondary battery's reaction can be driven in reverse by charging", "A primary battery contains no electrolyte", "A secondary battery cannot produce current"], "answer": 1, "explanation": "Secondary cells are rechargeable because an applied current can reverse the cell reaction.", "topicId": "battery-types-lithium-ion", "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 25 } },
+    { "id": "energy-7", "prompt": "During discharge of a lithium-ion cell, how do charge carriers travel?", "options": ["Li⁺ through the wire and electrons through the electrolyte", "Li⁺ through the electrolyte and electrons through the external load", "Both only through the electrolyte", "Both only through the wire"], "answer": 1, "explanation": "The electrolyte conducts Li⁺ between electrodes, while electrons pass through the external circuit.", "topicId": "battery-types-lithium-ion" },
+    { "id": "energy-8", "prompt": "What happens to lithium ions during charging in the lecture's graphite-based cell?", "options": ["They leave graphite and enter the electrolyte permanently", "They move toward and are inserted into the graphite electrode", "They become electrons", "They form oxygen gas"], "answer": 1, "explanation": "Charging drives Li⁺ back toward the graphite electrode, where lithium is intercalated.", "topicId": "battery-types-lithium-ion" },
+    { "id": "energy-9", "prompt": "What is the overall reaction for a hydrogen–oxygen fuel cell?", "options": ["2H₂ + O₂ → 2H₂O", "H₂O → H₂ + O₂ without energy input", "H₂ + 2O₂ → H₂O", "2H₂O → 2H₂ + O₂ during discharge"], "answer": 0, "explanation": "Hydrogen and oxygen react to form water while the cell delivers electrical energy and heat.", "topicId": "fuel-cells" },
+    { "id": "energy-10", "prompt": "Which ion is transported by the solid electrolyte in the SOFC description?", "options": ["Li⁺", "O²⁻", "Cl⁻", "Na⁺"], "answer": 1, "explanation": "A solid oxide electrolyte conducts oxide ions from the cathode toward the anode.", "topicId": "fuel-cells" },
+    { "id": "energy-11", "prompt": "What does a photovoltaic semiconductor junction help do?", "options": ["Separate photo-generated electrons and holes", "Convert electrons into protons", "Prevent light absorption", "Consume the semiconductor as fuel"], "answer": 0, "explanation": "The junction's internal field separates charge carriers created when light is absorbed.", "topicId": "photovoltaic-cells" },
+    { "id": "energy-12", "prompt": "Which sequence best describes photovoltaic electricity generation?", "options": ["Absorption → carrier generation → separation → current through a load", "Current → fuel → crystallization → light", "Reflection → ionization → combustion → current", "Carrier separation → no external circuit → no current"], "answer": 0, "explanation": "Photons create electron–hole pairs, the junction separates them, and an external circuit carries current.", "topicId": "photovoltaic-cells" },
+    { "id": "energy-13", "prompt": "What defines a photoelectrochemical cell in the module?", "options": ["A photoactive semiconductor in contact with an electrolyte", "A battery containing only metallic lithium", "A cell that operates without light", "A metal wire dipped in pure water"], "answer": 0, "explanation": "The semiconductor–electrolyte interface is central to the PEC device described.", "topicId": "photoelectrochemical-and-dye-cells", "source": { "file": "documents/books/applied-chemistry/module-02/source/module-2.pdf", "page": 60 } },
+    { "id": "energy-14", "prompt": "What is the light-absorbing component highlighted in a dye-sensitized solar cell?", "options": ["A dye", "A salt bridge", "A graphite load", "A fuel tank"], "answer": 0, "explanation": "The dye absorbs light and transfers excited charge within the dye-sensitized cell system.", "topicId": "photoelectrochemical-and-dye-cells" },
+    { "id": "energy-15", "prompt": "What is photoelectrosynthesis intended to do?", "options": ["Use light-driven charge transfer to help produce chemicals or fuels", "Store mechanical energy in a flywheel", "Measure only roof temperature", "Make an electrolyte electrically insulating"], "answer": 0, "explanation": "The lecture describes photoelectrosynthesis as converting solar energy into chemical products or fuels.", "topicId": "photoelectrochemical-and-dye-cells" }
+  ]
+}

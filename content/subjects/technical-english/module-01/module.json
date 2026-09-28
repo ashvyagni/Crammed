@@ -1,0 +1,679 @@
+{
+  "id": "technical-english/module-01",
+  "title": "Technical English exam practice",
+  "description": "Five observed CAT-II question formats, practised in paper order. The wording may change; the skills are the target.",
+  "accent": "ochre",
+  "sourceFiles": [
+    "documents/books/technical-english/module-01/source/cat-ii-paper-page-1.png",
+    "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png",
+    "documents/books/technical-english/module-01/source/wordbank.pdf"
+  ],
+  "topics": [
+    {
+      "id": "definition-writing",
+      "title": "Q1 · Define technical words",
+      "minutes": 12,
+      "source": {
+        "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-1.png"
+      },
+      "sections": [
+        {
+          "id": "definition-method",
+          "title": "The two-part definition",
+          "kind": "paragraph",
+          "body": "The photographed paper is a 90-minute, 50-mark CAT-II with five 10-mark questions. Its sequence is definitions, passage comprehension, a 100–120-word abstract, a conflict-management case, then a 200–250-word Statement of Purpose. The practice lessons keep that order, but one paper cannot guarantee future wording. Question 1 asks for five definitions (2 marks each). A complete technical definition names the word's class or category and then gives its distinguishing feature or function. Avoid circular wording, examples without a definition, and vague phrases such as “it is a thing.” The five words visible on this paper are Prototype, Recycling, Cybersecurity, Innovation and Sensor; the supplied word bank contains additional practice terms. Repeated entries in the bank are consolidated below."
+        },
+        {
+          "id": "definition-frame",
+          "title": "A reliable sentence frame",
+          "kind": "formula",
+          "body": "[Term] is a [category] that [distinctive purpose or feature]."
+        },
+        {
+          "id": "definition-exam-words",
+          "title": "The five words on the paper",
+          "kind": "bullets",
+          "items": [
+            "Prototype — a preliminary model of a product or system, built to test its design or operation before final production.",
+            "Recycling — the process of collecting and processing used materials so they can be made into new products.",
+            "Cybersecurity — the practice of protecting computers, networks and data from unauthorized access, attack or damage.",
+            "Innovation — a new or improved idea, product or method put into practical use to solve a problem or create value.",
+            "Sensor — a device that detects a physical or environmental change and converts it into a signal or measurement."
+          ],
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-1.png"
+          }
+        },
+        {
+          "id": "word-bank-1",
+          "title": "Word bank · people, places and everyday objects",
+          "kind": "bullets",
+          "items": [
+            "Satellite — an object placed in orbit around a planet or other body; artificial satellites support communication, navigation or observation.",
+            "Equipment — the tools or devices needed to perform a particular task or activity.",
+            "Wallet — a small case for carrying money and cards; a digital wallet stores payment credentials electronically.",
+            "Analysis — a careful examination of information or parts of a subject to understand it or reach a conclusion.",
+            "Artificial intelligence (AI) — computing methods that perform tasks such as recognizing patterns, generating language or making predictions.",
+            "Fountain pen — a reusable pen that feeds liquid ink from an internal reservoir to its nib.",
+            "Database — an organized collection of information that can be stored, searched and updated electronically.",
+            "Pressure — force applied over a unit area; in a fluid, it acts on surfaces in contact with that fluid.",
+            "Revenue — income a business receives from its sales or services before expenses are deducted.",
+            "Drone — an unmanned aircraft controlled remotely or programmed to fly autonomously.",
+            "Photosynthesis — the process by which plants and some other organisms use light energy to make sugars from carbon dioxide and water.",
+            "Password — a secret string of characters used to help verify a user's identity or protect access to an account.",
+            "Prototype — a preliminary model built to test or refine a design before full production.",
+            "Airline — a company that provides air-transport services for passengers, cargo or both.",
+            "Recycling — processing discarded materials so they can be used to make new products.",
+            "Microphone — a device that converts sound waves into an electrical or digital signal.",
+            "Optimist — a person who tends to expect or focus on favourable outcomes.",
+            "UPI — India's Unified Payments Interface, a system that enables instant bank-to-bank digital payments.",
+            "Cybersecurity — methods and practices for protecting digital systems, networks and data from threats.",
+            "Portfolio — an organized collection of a person's work, projects or investments, assembled to demonstrate or manage them.",
+            "Cement — a powdered binding material that hardens when mixed with water and is used in mortar and concrete.",
+            "Browser — software used to retrieve and display web pages and other online content.",
+            "Solar panel — a panel of connected solar cells that converts sunlight into electrical energy.",
+            "Biography — an account of a person's life written by someone else.",
+            "Battery — one or more electrochemical cells that store chemical energy and supply electrical energy."
+          ],
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/wordbank.pdf"
+          }
+        },
+        {
+          "id": "word-bank-2",
+          "title": "Word bank · technology, communication and services",
+          "kind": "bullets",
+          "items": [
+            "Quick commerce — a retail model that aims to deliver frequently ordered goods to customers in a short time.",
+            "Sensor — a device that detects a physical quantity or environmental change and produces a corresponding signal.",
+            "Restaurant — a business where food and drinks are prepared for customers to eat on the premises or take away.",
+            "3D printing — a manufacturing process that builds an object layer by layer from a digital model.",
+            "Folder — a digital container used to group and organize files.",
+            "Pollution — harmful substances or energy introduced into the environment at levels that can damage health or ecosystems.",
+            "Aircraft — a vehicle designed to fly through the air, such as an aeroplane or helicopter.",
+            "Emoji — a small digital image used to convey an idea, object or emotion in electronic communication.",
+            "Software — programs and related instructions that tell a computer or device what tasks to perform.",
+            "Tax — a compulsory payment collected by a government to fund public services and other expenditure.",
+            "Smartphone — a mobile phone with an operating system that supports internet access and installable applications.",
+            "Convocation — a formal ceremony at which an educational institution confers degrees or recognizes graduates.",
+            "AirDrop — Apple's wireless feature for sharing files between nearby compatible devices.",
+            "Microscope — an instrument that magnifies small objects so details not visible to the unaided eye can be examined.",
+            "Phishing — a deceptive attempt to obtain sensitive information by impersonating a trustworthy person or organization.",
+            "Bionote — a brief biographical note describing a person's background, qualifications or work.",
+            "Communication — the exchange of information, ideas or meaning between people or systems.",
+            "Cylinder — a three-dimensional shape with two equal, parallel circular ends joined by a curved surface.",
+            "Virtual reality (VR) — computer-generated three-dimensional surroundings that a user can explore, usually through a headset.",
+            "Volunteer — a person who freely gives time or effort to a cause or organization without being paid for that work.",
+            "Patent — a time-limited legal right that can allow an inventor to prevent others from commercially using a qualifying invention without permission.",
+            "Internet banking — a service that lets customers view and manage bank accounts through an internet-connected device.",
+            "Dessert — a sweet dish usually served at the end of a meal.",
+            "Authentication — the process of checking whether a user, device or message is genuinely who or what it claims to be.",
+            "Podcast — a digital audio or video programme, commonly released as a series of episodes."
+          ],
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/wordbank.pdf"
+          }
+        },
+        {
+          "id": "word-bank-3",
+          "title": "Word bank · ideas, systems and digital security",
+          "kind": "bullets",
+          "items": [
+            "Renewable energy — energy from sources replenished naturally on a human timescale, such as sunlight or wind.",
+            "Clog — a blockage that obstructs a passage or flow; the word can also mean a sturdy shoe.",
+            "Data — recorded facts, measurements or observations that can be processed or interpreted.",
+            "Résumé — a concise document summarizing a person's education, skills and work experience for an application.",
+            "Projector — a device that displays an enlarged image or video onto a screen or other surface.",
+            "Biometric authentication — identity verification using measurable biological or behavioural characteristics, such as a fingerprint.",
+            "Pessimist — a person who tends to expect or focus on unfavourable outcomes.",
+            "Walkalator — a moving walkway that carries people along a level route; also called a travelator.",
+            "Circuit — a complete conducting path through which electric current can flow.",
+            "Celebrity — a widely recognized person, especially in entertainment, sport or public life.",
+            "USB drive — a small portable data-storage device that connects through a USB port.",
+            "Innovation — a new or improved idea, product or process put into practical use.",
+            "Telemedicine — the delivery of health advice or clinical services remotely using communication technology.",
+            "Username — a name or identifier a person uses to access or be recognized by a digital service.",
+            "Solar eclipse — an event in which the Moon passes between Earth and the Sun and obscures some or all of the Sun from a viewing location.",
+            "Malware — software intentionally designed to disrupt, damage, spy on or gain unauthorized access to a device or system.",
+            "Square — a four-sided plane shape with equal sides and four right angles.",
+            "Headphones — a pair of small speakers worn on or over the ears to deliver audio to one listener.",
+            "Autobiography — an account of a person's life written by that person.",
+            "Smart watch — a wrist-worn digital device that can display information and run functions beyond basic timekeeping.",
+            "Debugging — the process of finding, diagnosing and correcting faults in software or hardware.",
+            "Hyperlink — a selectable reference in digital content that takes a user to another location or resource.",
+            "Dais (printed as “Dias” in the bank) — a raised platform used by a speaker or honoured guest at an event.",
+            "Emoticon — a sequence of keyboard characters, such as :-), used to represent a facial expression or emotion.",
+            "Sustainability — the ability to meet present needs while maintaining environmental, social and economic systems for the future."
+          ],
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/wordbank.pdf"
+          }
+        },
+        {
+          "id": "word-bank-4",
+          "title": "Word bank · technical and academic terms",
+          "kind": "bullets",
+          "items": [
+            "Calculator — a device or program that performs mathematical calculations.",
+            "Tournament — a series of contests arranged to determine an overall winner.",
+            "Philanthropist — a person who gives money, time or resources to support public or charitable causes.",
+            "Material — the substance or matter from which an object is made.",
+            "Process — a series of actions or changes that work together to produce a result.",
+            "Method — a planned or systematic way of doing something.",
+            "System — a set of connected parts that interact to perform a function or achieve a purpose.",
+            "Device — an object or piece of equipment designed to perform a particular task.",
+            "Structure — the way parts are arranged and connected to form a whole.",
+            "Function — the purpose or job performed by a part, object or system.",
+            "Component — one of the parts that makes up a larger system or object.",
+            "Measurement — a value found by comparing a quantity with an agreed unit or scale.",
+            "Design — a plan or specification for making or organizing a product, system or process.",
+            "Testing — the planned checking of a product, system or idea against requirements or expected behaviour.",
+            "Research — systematic investigation undertaken to establish facts, develop understanding or test an idea.",
+            "Experiment — a controlled procedure used to observe an outcome or test a hypothesis.",
+            "Energy — the capacity of a system to transfer heat or do work.",
+            "Temperature — a measure related to the average kinetic energy of particles in a substance.",
+            "Voltage — the electrical potential difference between two points, measured in volts.",
+            "Network — a group of connected computers, devices or nodes that can exchange information or resources.",
+            "Storage — the keeping of data or materials so they remain available for later use.",
+            "Installation — the act or process of fitting, setting up or putting equipment or software into operation."
+          ],
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/wordbank.pdf"
+          }
+        },
+        {
+          "id": "definition-example",
+          "title": "Build a full-mark definition",
+          "kind": "example",
+          "body": "Weak: “A sensor is used for sensing.” It repeats the word and gives no distinguishing function. Strong: “A sensor is a device that detects a physical or environmental change and converts it into a signal or measurement.” The first clause names the category (device); the rest explains what makes it useful. Practise aloud: define Prototype, Recycling, Cybersecurity, Innovation and Sensor without looking, then check that each answer contains both parts.",
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-1.png"
+          }
+        },
+        {
+          "id": "definition-trap",
+          "title": "Easy marks to protect",
+          "kind": "trap",
+          "body": "Do not define a word with a synonym that is just as vague, give only an example, or confuse a category with a purpose. “A prototype is a product” is incomplete; say that it is a preliminary model used to test a design. The paper asks for the category and the distinguishing feature or function."
+        },
+        {
+          "id": "definition-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Use category + distinguishing feature/function. Keep one direct sentence, and check that it explains what the term is and what sets it apart."
+        }
+      ]
+    },
+    {
+      "id": "reading-inference",
+      "title": "Q2 · Read, infer and support",
+      "minutes": 8,
+      "source": {
+        "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-1.png"
+      },
+      "sections": [
+        {
+          "id": "reading-method",
+          "title": "Answer from evidence, not memory",
+          "kind": "paragraph",
+          "body": "The paper gives a passage about urban heat and reflective “cool roofs,” then asks four short questions worth 10 marks total (3, 3, 2 and 2 marks). Read the questions first, mark the sentence that answers each one, and separate a stated fact from an inference. For a 2-mark answer, give the relevant evidence and the point it supports; for a 3-mark inference, connect details and explain the conclusion. Do not add outside facts that the passage does not establish."
+        },
+        {
+          "id": "reading-checklist",
+          "title": "A quick evidence routine",
+          "kind": "bullets",
+          "items": [
+            "Circle the task word: infer, why, what type, or when.",
+            "Underline the exact evidence in the passage before writing.",
+            "Answer the question directly in the first sentence.",
+            "For an inference, state the evidence and then the conclusion it supports.",
+            "Keep each answer within the passage's limits; do not turn a cautious finding into a universal rule."
+          ]
+        },
+        {
+          "id": "reading-model",
+          "title": "Model answers for the cool-roof passage",
+          "kind": "example",
+          "body": "a) The treated roof surface became substantially cooler, and the top-floor rooms also became cooler, but the indoor change was smaller. This suggests that a cooler roof is associated with cooler rooms, while the effect indoors is reduced and is not a one-to-one temperature change. b) The result depends on local climate, shade, ventilation, insulation and building orientation; the benefit was more noticeable in sunny conditions. A cool roof is therefore one part of a broader strategy, not a universal fix. c) The treated roof used a high-reflectance material (light-coloured or specially coated) that reflected more incoming solar radiation. d) The reduction was most noticeable on sunny days. For full credit, answer each part separately and reuse the passage's precise qualifiers.",
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+          }
+        },
+        {
+          "id": "reading-trap",
+          "title": "Don't overclaim",
+          "kind": "trap",
+          "body": "The passage reports measurements from two similar buildings during one hot period. It does not show that every cool roof will produce the same indoor change in every climate. Preserve words such as “can,” “may,” “smaller” and “most noticeable”; they set the limits of the evidence."
+        },
+        {
+          "id": "reading-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Quote or paraphrase the evidence, make only the inference it supports, and keep every qualifier. Answer all four subparts."
+        }
+      ]
+    },
+    {
+      "id": "abstract-writing",
+      "title": "Q3 · Write a research abstract",
+      "minutes": 9,
+      "source": {
+        "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+      },
+      "sections": [
+        {
+          "id": "abstract-structure",
+          "title": "Purpose · method · findings · conclusion",
+          "kind": "paragraph",
+          "body": "The paper asks for an abstract of about 100–120 words and explicitly expects the purpose, method, major findings and conclusion in a clear academic style. An abstract is a compact account of a study, not a background essay or a list of headings. Use one connected paragraph unless the instructions request another format. Keep the reported observations and the conclusion distinct."
+        },
+        {
+          "id": "abstract-frame",
+          "title": "Plan before drafting",
+          "kind": "bullets",
+          "items": [
+            "Purpose: What question did the study examine?",
+            "Method: Who or what was observed, for how long, and which measures were collected?",
+            "Findings: What were the most important observed results?",
+            "Conclusion: What can the results support, and what limitation must remain?",
+            "Final check: Count words, keep an impersonal academic tone, and do not introduce results absent from the prompt."
+          ]
+        },
+        {
+          "id": "abstract-model",
+          "title": "Worked abstract · classroom air-quality sensors",
+          "kind": "example",
+          "body": "Poor ventilation can affect classroom comfort, but routine checks may be costly. This study examined whether low-cost air-quality sensors could help staff identify rooms needing attention. Researchers monitored six classrooms for four weeks, recording carbon-dioxide concentration, temperature and humidity. They also noted class size and whether doors and windows were open. Carbon dioxide rose more quickly in crowded rooms when openings remained closed. Opening windows during breaks usually reduced levels within 15–25 minutes, while mechanically ventilated rooms showed more stable readings. These findings suggest that inexpensive sensors can support timely ventilation decisions. However, readings require periodic calibration, and the sensors cannot replace professional environmental assessment.",
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+          }
+        },
+        {
+          "id": "abstract-deconstruction",
+          "title": "Why the model works",
+          "kind": "bullets",
+          "items": [
+            "Purpose: tests whether low-cost sensors can help identify rooms needing attention.",
+            "Method: names six classrooms, four weeks and the recorded conditions.",
+            "Findings: reports faster CO₂ rise in crowded, closed rooms and the observed ventilation patterns.",
+            "Conclusion and limit: sensors can support decisions, but need calibration and do not replace professional assessment.",
+            "The model is 105 words, within the requested 100–120-word range."
+          ],
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+          }
+        },
+        {
+          "id": "abstract-practice",
+          "title": "Your turn · practise the same skill",
+          "kind": "bullets",
+          "items": [
+            "Without looking at the model, write a 100–120-word abstract for the sensor study in the question.",
+            "Underline your purpose, method, findings and conclusion; check that each appears.",
+            "Compare every factual claim with the question prompt, then count the words."
+          ]
+        },
+        {
+          "id": "abstract-trap",
+          "title": "Keep evidence and claims aligned",
+          "kind": "trap",
+          "body": "Do not claim that the sensors “proved” a health improvement; the prompt reports environmental measurements, not health outcomes. Avoid first-person opinion, recommendations unsupported by the study, and a long general introduction that pushes out the method or results."
+        },
+        {
+          "id": "abstract-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "In 100–120 words, cover purpose, method, findings and a proportionate conclusion. Count the words and retain the study's limitation."
+        }
+      ]
+    },
+    {
+      "id": "conflict-management",
+      "title": "Q4 · Analyse a team conflict",
+      "minutes": 8,
+      "source": {
+        "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+      },
+      "sections": [
+        {
+          "id": "conflict-framework",
+          "title": "Diagnose before proposing",
+          "kind": "paragraph",
+          "body": "The case is about a mobile-app launch: developers want an extra week to fix performance issues, while marketing has announced the launch date and fears loss of customer trust if it slips. Blame, defensiveness and irregular updates make the conflict worse. The answer has two jobs: identify causes and propose suitable strategies, then justify how the plan protects teamwork and project goals. Critique the process and competing constraints, not the character of either team."
+        },
+        {
+          "id": "conflict-plan",
+          "title": "A practical resolution sequence",
+          "kind": "bullets",
+          "items": [
+            "Name shared goals: a reliable app and honest communication with customers.",
+            "Hold a short facilitated meeting. Let each team explain its evidence and constraints without interruption.",
+            "Agree on the severity of performance defects using test results and clear release criteria.",
+            "Compare options: fix critical issues before release, stage a limited launch, or communicate a revised date if the risk remains unacceptable.",
+            "Assign an owner and deadline to every action; publish a brief daily status and decision log.",
+            "Escalate unresolved scope or date decisions to the project sponsor rather than allowing further blame."
+          ]
+        },
+        {
+          "id": "conflict-model",
+          "title": "Worked response · analysis and justification",
+          "kind": "example",
+          "body": "The conflict has three main causes: the teams have competing priorities, marketing committed to a date before the performance risk was resolved, and poor updates allowed uncertainty to turn into blame. A facilitated meeting should begin with the shared goal of a dependable launch and customer trust. The developers should present test results and classify defects by severity; marketing should explain the customer and campaign impact of delay. The teams can then agree on minimum release criteria and compare a short extension with a staged launch. Each action needs one owner, a deadline and a daily written status. If the teams cannot agree on an acceptable risk, the project sponsor should make the scope/date decision. This plan replaces accusation with evidence, gives both teams a voice and protects quality. Clear criteria and updates also help the project communicate honestly with customers.",
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+          }
+        },
+        {
+          "id": "conflict-marking",
+          "title": "Make both parts visible",
+          "kind": "bullets",
+          "items": [
+            "Part (a): state causes from the case, then name concrete conflict-management strategies.",
+            "Part (b): connect each strategy to an outcome: trust, collaboration, product quality or project goals.",
+            "Use facts in the scenario. Do not assume the launch must be delayed or that marketing alone caused the problem.",
+            "Practice: hide the model and write two causes, three specific actions, and one sentence explaining how the plan protects the project."
+          ]
+        },
+        {
+          "id": "conflict-trap",
+          "title": "Avoid a vague “communicate better” answer",
+          "kind": "trap",
+          "body": "A general call for teamwork earns little by itself. Say who meets, what evidence they review, how a decision is made, who owns each action and how progress is shared."
+        },
+        {
+          "id": "conflict-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Causes → shared goal → evidence-based discussion → agreed options and owners → updates/escalation → explain how teamwork and delivery are protected."
+        }
+      ]
+    },
+    {
+      "id": "statement-of-purpose",
+      "title": "Q5 · Write a focused SOP",
+      "minutes": 10,
+      "source": {
+        "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+      },
+      "sections": [
+        {
+          "id": "sop-structure",
+          "title": "A clear 200–250-word structure",
+          "kind": "paragraph",
+          "body": "The paper provides a profile of a final-year B.Tech student applying to a postgraduate programme in Sustainable and Intelligent Engineering Systems. The response must be a structured Statement of Purpose of about 200–250 words and include motivation, relevant preparation/experience, programme fit and realistic career goals. Treat the supplied profile as the evidence: connect each detail to the next step rather than inventing awards, grades or achievements."
+        },
+        {
+          "id": "sop-outline",
+          "title": "Four moves, one story",
+          "kind": "bullets",
+          "items": [
+            "Motivation: identify the problem or experience that led to this field.",
+            "Preparation: select relevant study, project and internship evidence; explain what each taught you.",
+            "Programme fit: connect the programme's stated focus to a real learning need. Do not invent specific courses not named in the prompt.",
+            "Career goals: state a credible near-term role and a longer-term contribution related to sustainable engineering.",
+            "Conclusion: bring the motivation and goal together without repeating the entire essay."
+          ]
+        },
+        {
+          "id": "sop-model",
+          "title": "Worked SOP · based only on the supplied profile",
+          "kind": "example",
+          "body": "My final-year studies have shown me how engineering decisions can affect both energy use and the reliability of everyday systems. I want to pursue postgraduate study in Sustainable and Intelligent Engineering Systems because I hope to design solutions that are efficient, measurable and practical to maintain. My coursework has also helped me ask how design choices can be evaluated against measured performance rather than intention alone.\n\nMy preparation includes studying programming, sensors, control systems and energy. I also completed a sensor-based energy-monitoring mini-project, which introduced me to collecting readings and using them to understand system performance. During an industrial internship, I observed energy-management practices and the practical constraints that engineers must consider when recommending changes. Together, these experiences have encouraged me to connect automation with sustainable engineering rather than treat them as separate interests.\n\nThe programme fits my goal of deepening this combination of knowledge. I hope to strengthen my ability to assess energy systems, interpret sensor data and develop responsible control strategies. After graduation, I aim to begin in an engineering role involving energy monitoring or building systems, where I can learn from experienced teams and contribute to evidence-based improvements. In the longer term, I hope to lead projects that make energy use more efficient without overlooking reliability, cost or the people who operate the systems.",
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+          }
+        },
+        {
+          "id": "sop-check",
+          "title": "Check the sample against the brief",
+          "kind": "bullets",
+          "items": [
+            "The model is 217 words, within 200–250.",
+            "Motivation: links efficient, reliable systems to the applicant's interests.",
+            "Preparation: uses only the programming, sensors, control systems, energy, mini-project and internship details supplied.",
+            "Programme fit: explains the desired combination without inventing course names or facilities.",
+            "Goals: begins with a realistic engineering role and extends to a longer-term contribution."
+          ],
+          "source": {
+            "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+          }
+        },
+        {
+          "id": "sop-practice",
+          "title": "Your turn · draft before memorizing",
+          "kind": "bullets",
+          "items": [
+            "Cover the model and write your own 200–250-word response using only the profile in the paper.",
+            "Mark each paragraph: motivation, preparation/experience, programme fit, or career goals.",
+            "Replace generic claims with a real detail from the profile and explain what you learned from it.",
+            "Use the model as a structure check, not as a script to reproduce."
+          ]
+        },
+        {
+          "id": "sop-trap",
+          "title": "Keep it specific and truthful",
+          "kind": "trap",
+          "body": "Do not turn the SOP into a résumé list, claim experience that is not in the profile, flatter the institution with generic phrases, or promise an unrealistic job title immediately after graduation. Explain what an experience taught you and how it prepares you for the stated programme."
+        },
+        {
+          "id": "sop-recap",
+          "title": "30-second recap",
+          "kind": "recap",
+          "body": "Motivation → relevant preparation with reflection → programme fit → realistic career goals. Use the profile's facts, keep a connected first-person voice and stay within 200–250 words."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "english-def-1",
+      "prompt": "Which definition best follows the paper's “category + distinguishing feature or function” instruction?",
+      "options": [
+        "A sensor is something that senses things.",
+        "A sensor is a device that detects a physical change and converts it into a signal or measurement.",
+        "A sensor is used in buildings.",
+        "A sensor is like a thermometer."
+      ],
+      "answer": 1,
+      "explanation": "It names the category (device) and explains the distinguishing function. The other options are circular, vague or only examples.",
+      "topicId": "definition-writing",
+      "source": {
+        "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-1.png"
+      }
+    },
+    {
+      "id": "english-def-2",
+      "prompt": "Which detail distinguishes a prototype from a finished product?",
+      "options": [
+        "It is a preliminary model used to test or refine a design.",
+        "It is always made from recycled material.",
+        "It is a device that measures temperature.",
+        "It is a legal right granted to an inventor."
+      ],
+      "answer": 0,
+      "explanation": "A prototype is an early model for testing and refinement. Recycled materials are not required; the other choices describe different terms.",
+      "topicId": "definition-writing"
+    },
+    {
+      "id": "english-def-3",
+      "prompt": "A strong definition of “recycling” should identify it as:",
+      "options": [
+        "A product made from plastic.",
+        "A process that collects and processes used materials to make new products.",
+        "A device for measuring waste.",
+        "A law that bans every disposable item."
+      ],
+      "answer": 1,
+      "explanation": "This names recycling as a process and states its defining purpose without adding an unsupported universal claim.",
+      "topicId": "definition-writing"
+    },
+    {
+      "id": "english-read-1",
+      "prompt": "In the cool-roof passage, what does the comparison say about indoor temperature?",
+      "options": [
+        "Indoor rooms cooled by exactly the same amount as the roof.",
+        "The treated roof surface was substantially cooler; top-floor rooms also cooled, but by a smaller amount.",
+        "The roof had no effect on the rooms.",
+        "Every floor cooled equally in all weather."
+      ],
+      "answer": 1,
+      "explanation": "The passage explicitly distinguishes the larger roof-surface reduction from the smaller indoor difference.",
+      "topicId": "reading-inference",
+      "source": {
+        "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+      }
+    },
+    {
+      "id": "english-read-2",
+      "prompt": "Why does the passage avoid calling cool roofs a universal solution?",
+      "options": [
+        "The material cannot reflect sunlight.",
+        "The benefit depends on factors such as climate, shade, insulation, ventilation and building orientation.",
+        "The study measured no temperatures.",
+        "Cool roofs only work at night."
+      ],
+      "answer": 1,
+      "explanation": "The passage names contextual factors and recommends cool roofs as one part of a broader strategy.",
+      "topicId": "reading-inference"
+    },
+    {
+      "id": "english-read-3",
+      "prompt": "On which days was the temperature reduction most noticeable?",
+      "options": [
+        "Cloudy days",
+        "Rainy days",
+        "Sunny days",
+        "The passage does not compare weather."
+      ],
+      "answer": 2,
+      "explanation": "The passage states that the reduction was most noticeable on sunny days and less pronounced during cloudy periods.",
+      "topicId": "reading-inference"
+    },
+    {
+      "id": "english-abstract-1",
+      "prompt": "Which sequence best covers the abstract requirements in the paper?",
+      "options": [
+        "Opinion, history, quotation, recommendation",
+        "Purpose, method, major findings, conclusion",
+        "Title, references, acknowledgements, appendix",
+        "Problem, unrelated anecdote, personal response, slogan"
+      ],
+      "answer": 1,
+      "explanation": "The prompt explicitly asks for the purpose, method, major findings and conclusion in an academic abstract.",
+      "topicId": "abstract-writing",
+      "source": {
+        "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+      }
+    },
+    {
+      "id": "english-abstract-2",
+      "prompt": "Which conclusion is supported by the classroom sensor study?",
+      "options": [
+        "Low-cost sensors can support timely ventilation decisions but need calibration and cannot replace professional assessment.",
+        "Low-cost sensors permanently eliminate poor ventilation.",
+        "The study proves that ventilation prevents every illness.",
+        "Professional environmental assessment is unnecessary."
+      ],
+      "answer": 0,
+      "explanation": "This matches both the reported conclusion and its limits; the other options overstate the findings.",
+      "topicId": "abstract-writing"
+    },
+    {
+      "id": "english-abstract-3",
+      "prompt": "What is the requested length for the abstract?",
+      "options": [
+        "About 50–60 words",
+        "About 100–120 words",
+        "About 200–250 words",
+        "No length is given"
+      ],
+      "answer": 1,
+      "explanation": "Question 3 asks for an abstract of about 100–120 words.",
+      "topicId": "abstract-writing"
+    },
+    {
+      "id": "english-conflict-1",
+      "prompt": "What is the most useful first step in the app-launch conflict?",
+      "options": [
+        "Decide that marketing is always right.",
+        "Bring both teams together around a shared goal and review the evidence and constraints.",
+        "Cancel the project without discussion.",
+        "Ask each team to send more blame-focused emails."
+      ],
+      "answer": 1,
+      "explanation": "A facilitated, evidence-based discussion lets both teams explain their constraints before choosing a resolution.",
+      "topicId": "conflict-management",
+      "source": {
+        "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+      }
+    },
+    {
+      "id": "english-conflict-2",
+      "prompt": "Which plan best protects teamwork and project goals?",
+      "options": [
+        "Set clear release criteria, assign owners and deadlines, and share regular status updates.",
+        "Hide performance issues from customers and the project sponsor.",
+        "Let the teams continue working without agreed priorities.",
+        "Measure success only by keeping the original date."
+      ],
+      "answer": 0,
+      "explanation": "Shared criteria and accountable updates reduce uncertainty while balancing reliability, schedule and customer trust.",
+      "topicId": "conflict-management"
+    },
+    {
+      "id": "english-conflict-3",
+      "prompt": "Why should the teams classify defects using test results?",
+      "options": [
+        "It replaces all communication.",
+        "It gives them a shared evidence base for judging launch risk and comparing options.",
+        "It guarantees that no delay will occur.",
+        "It proves one team is at fault."
+      ],
+      "answer": 1,
+      "explanation": "Evidence helps the teams assess severity and make a joint decision instead of relying on blame or assumptions.",
+      "topicId": "conflict-management"
+    },
+    {
+      "id": "english-sop-1",
+      "prompt": "Which set contains all four required SOP elements in Question 5?",
+      "options": [
+        "Motivation, relevant preparation/experience, programme fit and realistic career goals",
+        "Family history, unrelated hobbies, quotations and salary demand",
+        "Only grades and a list of subjects",
+        "A technical abstract and a reference list"
+      ],
+      "answer": 0,
+      "explanation": "The paper explicitly lists motivation, relevant preparation/experience, programme fit and realistic career goals.",
+      "topicId": "statement-of-purpose",
+      "source": {
+        "file": "documents/books/technical-english/module-01/source/cat-ii-paper-page-2.png"
+      }
+    },
+    {
+      "id": "english-sop-2",
+      "prompt": "What is the requested length for the SOP?",
+      "options": [
+        "About 100–120 words",
+        "About 200–250 words",
+        "Exactly 500 words",
+        "No word range is given"
+      ],
+      "answer": 1,
+      "explanation": "Question 5 requests a structured SOP of about 200–250 words.",
+      "topicId": "statement-of-purpose"
+    },
+    {
+      "id": "english-sop-3",
+      "prompt": "Which SOP sentence makes the strongest use of the supplied mini-project profile?",
+      "options": [
+        "I have always been the best student in my university.",
+        "My sensor-based energy-monitoring project introduced me to collecting readings and using them to understand system performance.",
+        "I will immediately become the world's leading engineer.",
+        "I enjoy every subject and have no particular career goal."
+      ],
+      "answer": 1,
+      "explanation": "It uses a fact supplied in the profile and explains what the experience contributed, without inventing achievements.",
+      "topicId": "statement-of-purpose"
+    }
+  ]
+}

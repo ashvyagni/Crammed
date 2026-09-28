@@ -1,0 +1,52 @@
+{
+  "id": "basic-engineering/module-01",
+  "title": "Forces & free-body diagrams",
+  "description": "Start with a sketch, name the forces, and make the system easier to reason about.",
+  "accent": "sage",
+  "sourceFiles": ["CRAMMED demonstration notes — not course material"],
+  "topics": [
+    {
+      "id": "force-vectors",
+      "title": "Forces have direction",
+      "minutes": 4,
+      "sections": [
+        { "id": "core", "title": "A force is more than a number", "kind": "paragraph", "body": "A force is a vector: it has both magnitude and direction. Its SI unit is the newton (N). When several forces act on a body, their vector sum is the resultant force." },
+        { "id": "definition", "title": "Resolve before you add", "kind": "definition", "body": "Resolving a force means replacing it with perpendicular components whose vector sum is the original force." },
+        { "id": "formula", "title": "Components at an angle", "kind": "formula", "body": "For a force F at angle θ above the horizontal:\nFₓ = F cos θ\nFᵧ = F sin θ" },
+        { "id": "example", "title": "Pulling a loaded cart", "kind": "example", "visual": "force", "body": "Pull with 10 N at 30° above horizontal. The forward component is 10 cos 30° ≈ 8.7 N; the upward component is 10 sin 30° = 5 N. Resolve first so each direction can be analysed separately." },
+        { "id": "trap", "title": "Angle check", "kind": "trap", "body": "These component formulas assume θ is measured from the horizontal. If the angle is measured from the vertical, the sine and cosine roles swap." },
+        { "id": "recap", "title": "30-second recap", "kind": "recap", "body": "Forces are vectors. Choose axes, resolve each force into components, then add components along each axis." }
+      ]
+    },
+    {
+      "id": "free-body-diagrams",
+      "title": "Draw a free-body diagram",
+      "minutes": 5,
+      "sections": [
+        { "id": "steps", "title": "Isolate the object", "kind": "bullets", "items": ["Choose the body you are analysing.", "Represent it simply and show only forces acting on that body.", "Label each force with its direction and a clear name.", "Choose useful coordinate axes before resolving angled forces."] },
+        { "id": "definition", "title": "A useful boundary", "kind": "definition", "body": "A free-body diagram shows the external forces acting on one selected body, not the forces that body exerts on everything else." },
+        { "id": "example", "title": "On a level table", "kind": "example", "body": "For a stationary block on a level table, show its weight downward and the table's normal contact force upward. Add other forces only if they act on the block." },
+        { "id": "trap", "title": "Common omission", "kind": "trap", "body": "Do not draw a force just because it appears in the story. Check whether it acts on the selected object." },
+        { "id": "recap", "title": "30-second recap", "kind": "recap", "body": "One body, external forces only, directions labelled. A clean diagram is a map for the equations that follow." }
+      ]
+    },
+    {
+      "id": "equilibrium",
+      "title": "Equilibrium checks",
+      "minutes": 4,
+      "sections": [
+        { "id": "core", "title": "No change in motion", "kind": "paragraph", "body": "For a body in static equilibrium, the resultant force is zero and the resultant moment about any point is zero." },
+        { "id": "formula", "title": "Planar equilibrium", "kind": "formula", "body": "ΣFₓ = 0\nΣFᵧ = 0\nΣM = 0" },
+        { "id": "example", "title": "A balanced beam", "kind": "example", "body": "A light 2 m beam is supported at its centre, with a 10 N weight 1 m to each side. The moments are equal and opposite (10 N·m each), and the support supplies 20 N upward to balance the two weights." },
+        { "id": "trap", "title": "Keep the conditions together", "kind": "trap", "body": "Force balance alone does not guarantee rotational equilibrium. Include a moment balance when the body can rotate." },
+        { "id": "recap", "title": "30-second recap", "kind": "recap", "body": "Static equilibrium needs both translational and rotational balance: zero resultant force and zero resultant moment." }
+      ]
+    }
+  ],
+  "questions": [
+    { "id": "eng-1", "prompt": "A 10 N force acts at 30° above the horizontal. Which expression gives its horizontal component?", "options": ["10 sin 30°", "10 cos 30°", "10 tan 30°", "10 / cos 30°"], "answer": 1, "explanation": "When the angle is measured from the horizontal, the horizontal component is adjacent to the angle: F cos θ.", "topicId": "force-vectors" },
+    { "id": "eng-2", "prompt": "What belongs on a free-body diagram of a block on a table?", "options": ["Forces the block exerts on the table", "Only external forces acting on the block", "Every force mentioned in the problem", "The block's velocity arrow only"], "answer": 1, "explanation": "A free-body diagram isolates one body and shows the external forces acting on that body.", "topicId": "free-body-diagrams" },
+    { "id": "eng-3", "prompt": "A body is in static equilibrium in a plane. Which set of conditions is appropriate?", "options": ["ΣFₓ = 0 only", "ΣFᵧ = 0 and ΣM = 0 only", "ΣFₓ = 0, ΣFᵧ = 0, and ΣM = 0", "ΣM = 0 only"], "answer": 2, "explanation": "Planar static equilibrium requires balance in both translation directions and rotation.", "topicId": "equilibrium" },
+    { "id": "eng-4", "prompt": "An angle is given from the vertical instead of the horizontal. What should you do before resolving a force?", "options": ["Use horizontal-angle formulas unchanged", "Check which component is adjacent to the stated angle", "Square the force", "Ignore the angle"], "answer": 1, "explanation": "Sine and cosine depend on the reference angle; identify the adjacent and opposite components first.", "topicId": "force-vectors" }
+  ]
+}
