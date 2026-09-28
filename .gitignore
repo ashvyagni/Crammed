@@ -10,3 +10,5 @@ dist/
 documents/books/**/source/*.pdf
 documents/books/**/source/*.png
 content/subjects/**/module.draft.json
+.vercel
+.env*
